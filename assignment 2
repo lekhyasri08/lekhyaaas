@@ -1,0 +1,21 @@
+#include<stdio.h>
+main()
+{
+int i=0,a=0,b=0,num;
+printf("enter num of elements");
+scanf("%d",&n);
+printf("enter the numbers");
+while(i<n)
+{
+ scanf("%d",&num);
+ if(num>a)
+ {
+ b=a;
+ a=num;
+ }
+ else if(num>b)
+ b=num;
+ i++;
+ }
+ printf("second highest number is %d",b);
+ }
